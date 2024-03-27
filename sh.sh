@@ -1,5 +1,8 @@
-#nasm 1_exit.asm -f elf64 -o 1_exit.o && ld 1_exit.o -o 1_exit.out && ./1_exit.out
-read name
-nasm "${name}.asm" -f elf64 -o "${name}.o" && 
+#sh sh.sh <name>
+#sh sh.sh 1_exit
+#sh sh.sh 5_sleep
+name=$1
+nasm "${name}.asm" -g -f elf64 -o "${name}.o" && 
 ld "${name}.o" -o "${name}.out" && 
 ./"${name}.out"
+echo [exit with $?]
