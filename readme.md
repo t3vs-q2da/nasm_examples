@@ -9,3 +9,4 @@ chronology:
 6. [get_name_file](./get_name_file)
 7. [nasm_from_cpp](./nasm_from_cpp)
 8. [fac](./fac)
+9. [nasm_from_cpp_2](./nasm_from_cpp_2)
