@@ -6,6 +6,6 @@ chronology:
 3. [print_with_loop](./print_with_loop)
 4. [macro](./macro)
 5. [sleep](./sleep)
-6. [cmd_args](./cmd_args)
+6. [get_name_file](./get_name_file)
 7. [nasm_from_cpp](./nasm_from_cpp)
 8. [fac](./fac)

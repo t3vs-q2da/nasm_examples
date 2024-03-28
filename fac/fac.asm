@@ -31,7 +31,7 @@ fac:
 	ret
 
 _start:
-	mov rdi,6
+	mov rdi,5
 	call fac
 	mov rdi,rax
 	mov rax,60

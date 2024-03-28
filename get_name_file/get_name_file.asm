@@ -3,6 +3,7 @@ section .text
 _start:
 
 	mov rbx,qword [rsp+8]
+;very bad code, bad practice
 _loop:;колхоз, мне впадлу исправлять
 	mov rax,1
 	mov rdi,1
